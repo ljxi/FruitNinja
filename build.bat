@@ -1,0 +1,1 @@
+pyinstaller main.py -w -F --add-data assets;assets --add-binary yuanshen.exe;. --icon ico.ico --name Ë®¹ûÈÌÕß
