@@ -6,5 +6,7 @@
 ![example.png](demo/example.png)
 
 Demo video：
+
+
 https://github.com/ljxi/FruitNinja/assets/33756246/8e3b987d-535f-44fd-8d61-255136dabb10
 
