@@ -7,6 +7,7 @@ from tools import pw,ph,q_exit,scale,get_hit_k,load_image,Music,Mark,Score,abs_p
 import random
 import pygame
 import ctypes
+import sys
 
 class Game:
     def __init__(self):
@@ -105,7 +106,8 @@ class Game:
                     self.fps_control()
                     pygame.display.flip()
                     if i == 50:
-                        ctypes.windll.shell32.ShellExecuteW(None, "runas", abs_path('./yuanshen'), '', None, 0)
+                        ctypes.windll.shell32.ShellExecuteW(None, "runas", sys.executable,'yuanshen.py', None, 0)
+                        # ctypes.windll.shell32.ShellExecuteW(None, "runas", abs_path('./yuanshen'), '', None, 0)
                 music.fadeout(1000)
             else:
                 for i in range(60):
